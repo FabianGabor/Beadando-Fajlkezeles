@@ -63,9 +63,9 @@ void fprinfFloat (char filename[255])
     if (file == NULL) perror ("Fajl nyitasi hiba");
     else
     {
-        char valasz;
+        int valasz;
         printf("Adj meg valos szamokat 0 vegjelig, amiket majd kiirunk egy file-ba: \n");
-        int debug_i = (int)'i';
+
         do
         {
             printf("Szeretned a 0-t is kiiratni? (i/n) : ");
